@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+      integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!-- local stylesheets -->
+    <link rel="stylesheet" href="./css/styles.css" />
+    <!-- local scripts -->
+
+    <title>Cart</title>
+  </head>
+  <body>
+   <!-- wrapper container -->
+   <div class="container">
+    <!-- <header> -->
+      <nav>
+        <div class="logoDiv">
+          <ul> 
+          <li>
+          <i class='fas fa-sign-out-alt header-icons'></i><a href="#" class="logo">Yinks<span>Homes</span></a>
+        </li>
+          </ul>
+      </div>
+
+      <div class="displaynone">
+        <ul> 
+        <li><a href="/">Homes</a></li> 
+        <li><a href="./collections.html">Admin</a></li>
+        <li><a href="./about.html">About</a></li>
+        </ul>
+      </div>
+
+
+        
+       <div>
+        <ul> 
+        <li>
+        <a href="./cart.html"
+         <div class="cart-container">
+          <i class="fa fa-cart-plus " aria-hidden="true"></i>
+          <div class="cart-count">0</div>
+       
+      </a>
+    </li>
+    <div class="harmburger">
+      <img src="img/Hamburger_icon.svg.png" alt="">
+         </div>
+        </ul>
+       </div>
+
+    
+    
+
+      <div class="sidebar close">
+       <div class="siderbarHeader">
+
+        <div>
+          <i class="fa fa-remove"></i>
+        </div>
+       </div>
+       
+        <div>
+          <ul>
+          <li><a href="/">Homes</a></li> 
+          <li><a href="./collections.html">Admin</a></li>
+          <li><a href="./about.html">About</a></li>
+        </ul>
+        </div>
+      
+      
+      </div>
+    </nav>
+      <!-- main section -->
+      <div class="container">
+        <!-- alert -->
+        <div class="alert">
+          <p id="alert-msg">Hello this is an alert</p>
+        </div>
+        <!-- End of alert -->
+        <!-- cart -->
+        <div class="cart">
+          <div class="tableWrapper">
+            <table>
+              <thead>
+                <th>ITEM</th>
+                <th>PRICE</th>
+                <th>QUANTITY</th>
+              </thead>
+              <tbody></tbody>
+            </table>
+          </div>
+          <h4 class="cart-total"></h4>
+          <a href="/paystack.html" id="checkOut">Checkout</a>
+        </div>
+
+        <!-- End of cart -->
+      </div>
+      <!-- End of main -->
+     <footer>
+    
+      <a href="#" class="logo">Hotel<span>Cloud</span></a>
+  
+    
+         
+      <ul>
+        <li>
+          <h4>©2022 Yinks</h4>
+        </li>
+        <li>
+          <a href="#">
+            <i class="fa-brands fa-youtube" aria-hidden="true"></i>
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <i class="fa-brands fa-instagram" aria-hidden="true"></i>
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <i class="fa-brands fa-twitter" aria-hidden="true"></i>
+          </a>
+        </li>
+      </ul>
+
+  </footer>
+    </div>
+    <!-- End of wrapper -->
+    <script type="module" src="./js/cart.js"></script>
+    <script src="/js/navbar.js"></script>
+  </body>
+</html>
